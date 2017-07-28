@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Snake Game</title>
+    <style type = "text/css">body{background-color: #1F3913;}</style>
+    <link rel=stylesheet id=style type=text/css href="css/main-snake.css" />
+    <div id="mode-wrapper"><strong>Play Mode: Normal</strong><br /><br /><br /><button id="high-score">High score.</button></div>
+</head>
+<body>
+<audio autoplay>
+<source src = "sound/start.ogg" type="audio/ogg">
+<source src="sound/start.wav" type="audio/wav">
+</audio>
+    <div id="game-area" tabindex="0"></div>
+    <script type="text/javascript" src="js/snake.js"></script>
+    <script type="text/javascript">
+    var mySnakeBoard = new SNAKE.Board( {
+                                            boardContainer: "game-area",
+                                            fullScreen: false,
+                                            width: 680,
+                                            height:500
+                                        }); 
+    </script>
+<strong>Copyright © Patrick Gillespie, Rehash by Erick Santos</strong>
+</body>
+</html>
