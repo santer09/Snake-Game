@@ -1,4 +1,4 @@
-# Snake-Game
+# Snake-Game in JavaScript
 Rehash by Erick Santos
 A simple game in JavaScript using HTML and CSS
 Copyright © Patrick Gillespie, http://patorjk.com
