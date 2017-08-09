@@ -1,8 +1,7 @@
 /*
 JavaScript Snake
-By Patrick Gillespie
-http://patorjk.com/games/snake
-Rehash by Erick Santos
+By Erick Santos
+JS file
 */
 /**
 * @module Snake
